@@ -1,0 +1,7 @@
+Steps to Install
+git clone git@github.com:Aterxerxes/singlestone.git
+cd singlestone
+npm i
+npm run dev
+navigate to http://localhost:3000/ in a browser
+enjoy
