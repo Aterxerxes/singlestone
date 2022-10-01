@@ -1,0 +1,37 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1vw 0;
+  min-width: 205px;
+
+  /* background-color: #F8F8F8;
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 5px;
+  box-shadow: 4px 3px 5px 1px rgba(0,0,0,0.25);
+  margin: 5px; */
+}
+
+.container > p {
+  margin-top: 0;
+}
+
+.title {
+  border-bottom: 3px solid #47e4c2;
+  font-size: 50px;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  padding-bottom: 1vh;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 12px;
+  text-align: center;
+}

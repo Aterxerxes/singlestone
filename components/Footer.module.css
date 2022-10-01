@@ -1,0 +1,33 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 17vw 1vh 17vw;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.sectionsContainer {
+  column-gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 900px) {
+  .sectionsContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .container {
+    padding: 0 3vw 3vw 3vh;
+  }
+  .sectionsContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
